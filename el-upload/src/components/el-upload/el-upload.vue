@@ -80,7 +80,7 @@ export default {
         data.append("file", fileList[fileLength]);
         this.$http
           .post(
-            "http://192.168.10.65:8002/jsaf-cloud-bussiness-gridfs/ajaxUpload",
+            "#",
             data.fileSource,
             {
               headers: {
